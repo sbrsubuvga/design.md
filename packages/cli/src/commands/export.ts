@@ -23,7 +23,7 @@ type ExportFormat = typeof FORMATS[number];
 export default defineCommand({
   meta: {
     name: 'export',
-    description: 'Export DESIGN.md tokens to other formats (tailwind, dtcg).',
+    description: 'Export DESIGN.md tokens to other formats (tailwind, tailwind-v4, dtcg).',
   },
   args: {
     file: {
